@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF82CECD2D0C9063007476BF /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = EF82CECC2D0C9063007476BF /* SwiftCSV */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EF82CE6F2D0C8BAD007476BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,28 @@
 		EF82CE5D2D0C8BAC007476BF /* ICU(I)P.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ICU(I)P.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF82CE6E2D0C8BAD007476BF /* ICU(I)PTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ICU(I)PTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF82CE782D0C8BAD007476BF /* ICU(I)PUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ICU(I)PUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF82CEFF2D0C91F9007476BF /* GeoLite2-ASN-Blocks-IPv4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-ASN-Blocks-IPv4.csv"; sourceTree = "<group>"; };
+		EF82CF002D0C91F9007476BF /* GeoLite2-ASN-Blocks-IPv6.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-ASN-Blocks-IPv6.csv"; sourceTree = "<group>"; };
+		EF82CF022D0C91F9007476BF /* GeoLite2-City-Blocks-IPv4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-City-Blocks-IPv4.csv"; sourceTree = "<group>"; };
+		EF82CF032D0C91F9007476BF /* GeoLite2-City-Blocks-IPv6.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-City-Blocks-IPv6.csv"; sourceTree = "<group>"; };
+		EF82CF042D0C91F9007476BF /* GeoLite2-City-Locations-de.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-City-Locations-de.csv"; sourceTree = "<group>"; };
+		EF82CF052D0C91F9007476BF /* GeoLite2-City-Locations-en.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-City-Locations-en.csv"; sourceTree = "<group>"; };
+		EF82CF062D0C91F9007476BF /* GeoLite2-City-Locations-es.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-City-Locations-es.csv"; sourceTree = "<group>"; };
+		EF82CF072D0C91F9007476BF /* GeoLite2-City-Locations-fr.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-City-Locations-fr.csv"; sourceTree = "<group>"; };
+		EF82CF082D0C91F9007476BF /* GeoLite2-City-Locations-ja.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-City-Locations-ja.csv"; sourceTree = "<group>"; };
+		EF82CF092D0C91F9007476BF /* GeoLite2-City-Locations-pt-BR.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-City-Locations-pt-BR.csv"; sourceTree = "<group>"; };
+		EF82CF0A2D0C91F9007476BF /* GeoLite2-City-Locations-ru.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-City-Locations-ru.csv"; sourceTree = "<group>"; };
+		EF82CF0B2D0C91F9007476BF /* GeoLite2-City-Locations-zh-CN.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-City-Locations-zh-CN.csv"; sourceTree = "<group>"; };
+		EF82CF0D2D0C91F9007476BF /* GeoLite2-Country-Blocks-IPv4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-Country-Blocks-IPv4.csv"; sourceTree = "<group>"; };
+		EF82CF0E2D0C91F9007476BF /* GeoLite2-Country-Blocks-IPv6.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-Country-Blocks-IPv6.csv"; sourceTree = "<group>"; };
+		EF82CF0F2D0C91F9007476BF /* GeoLite2-Country-Locations-de.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-Country-Locations-de.csv"; sourceTree = "<group>"; };
+		EF82CF102D0C91F9007476BF /* GeoLite2-Country-Locations-en.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-Country-Locations-en.csv"; sourceTree = "<group>"; };
+		EF82CF112D0C91F9007476BF /* GeoLite2-Country-Locations-es.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-Country-Locations-es.csv"; sourceTree = "<group>"; };
+		EF82CF122D0C91F9007476BF /* GeoLite2-Country-Locations-fr.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-Country-Locations-fr.csv"; sourceTree = "<group>"; };
+		EF82CF132D0C91F9007476BF /* GeoLite2-Country-Locations-ja.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-Country-Locations-ja.csv"; sourceTree = "<group>"; };
+		EF82CF142D0C91F9007476BF /* GeoLite2-Country-Locations-pt-BR.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-Country-Locations-pt-BR.csv"; sourceTree = "<group>"; };
+		EF82CF152D0C91F9007476BF /* GeoLite2-Country-Locations-ru.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-Country-Locations-ru.csv"; sourceTree = "<group>"; };
+		EF82CF162D0C91F9007476BF /* GeoLite2-Country-Locations-zh-CN.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GeoLite2-Country-Locations-zh-CN.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF82CECD2D0C9063007476BF /* SwiftCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +105,7 @@
 				EF82CE5F2D0C8BAC007476BF /* ICU(I)P */,
 				EF82CE712D0C8BAD007476BF /* ICU(I)PTests */,
 				EF82CE7B2D0C8BAD007476BF /* ICU(I)PUITests */,
+				EF82CEFE2D0C91F9007476BF /* Frameworks */,
 				EF82CE5E2D0C8BAC007476BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +118,68 @@
 				EF82CE782D0C8BAD007476BF /* ICU(I)PUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF82CEFE2D0C91F9007476BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF82CF182D0C91F9007476BF /* GeoLite2 */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF82CF012D0C91F9007476BF /* GeoLite2-ASN-CSV_20241031 */ = {
+			isa = PBXGroup;
+			children = (
+				EF82CEFF2D0C91F9007476BF /* GeoLite2-ASN-Blocks-IPv4.csv */,
+				EF82CF002D0C91F9007476BF /* GeoLite2-ASN-Blocks-IPv6.csv */,
+			);
+			path = "GeoLite2-ASN-CSV_20241031";
+			sourceTree = "<group>";
+		};
+		EF82CF0C2D0C91F9007476BF /* GeoLite2-City-CSV_20241029 */ = {
+			isa = PBXGroup;
+			children = (
+				EF82CF022D0C91F9007476BF /* GeoLite2-City-Blocks-IPv4.csv */,
+				EF82CF032D0C91F9007476BF /* GeoLite2-City-Blocks-IPv6.csv */,
+				EF82CF042D0C91F9007476BF /* GeoLite2-City-Locations-de.csv */,
+				EF82CF052D0C91F9007476BF /* GeoLite2-City-Locations-en.csv */,
+				EF82CF062D0C91F9007476BF /* GeoLite2-City-Locations-es.csv */,
+				EF82CF072D0C91F9007476BF /* GeoLite2-City-Locations-fr.csv */,
+				EF82CF082D0C91F9007476BF /* GeoLite2-City-Locations-ja.csv */,
+				EF82CF092D0C91F9007476BF /* GeoLite2-City-Locations-pt-BR.csv */,
+				EF82CF0A2D0C91F9007476BF /* GeoLite2-City-Locations-ru.csv */,
+				EF82CF0B2D0C91F9007476BF /* GeoLite2-City-Locations-zh-CN.csv */,
+			);
+			path = "GeoLite2-City-CSV_20241029";
+			sourceTree = "<group>";
+		};
+		EF82CF172D0C91F9007476BF /* GeoLite2-Country-CSV_20241029 */ = {
+			isa = PBXGroup;
+			children = (
+				EF82CF0D2D0C91F9007476BF /* GeoLite2-Country-Blocks-IPv4.csv */,
+				EF82CF0E2D0C91F9007476BF /* GeoLite2-Country-Blocks-IPv6.csv */,
+				EF82CF0F2D0C91F9007476BF /* GeoLite2-Country-Locations-de.csv */,
+				EF82CF102D0C91F9007476BF /* GeoLite2-Country-Locations-en.csv */,
+				EF82CF112D0C91F9007476BF /* GeoLite2-Country-Locations-es.csv */,
+				EF82CF122D0C91F9007476BF /* GeoLite2-Country-Locations-fr.csv */,
+				EF82CF132D0C91F9007476BF /* GeoLite2-Country-Locations-ja.csv */,
+				EF82CF142D0C91F9007476BF /* GeoLite2-Country-Locations-pt-BR.csv */,
+				EF82CF152D0C91F9007476BF /* GeoLite2-Country-Locations-ru.csv */,
+				EF82CF162D0C91F9007476BF /* GeoLite2-Country-Locations-zh-CN.csv */,
+			);
+			path = "GeoLite2-Country-CSV_20241029";
+			sourceTree = "<group>";
+		};
+		EF82CF182D0C91F9007476BF /* GeoLite2 */ = {
+			isa = PBXGroup;
+			children = (
+				EF82CF012D0C91F9007476BF /* GeoLite2-ASN-CSV_20241031 */,
+				EF82CF0C2D0C91F9007476BF /* GeoLite2-City-CSV_20241029 */,
+				EF82CF172D0C91F9007476BF /* GeoLite2-Country-CSV_20241029 */,
+			);
+			name = GeoLite2;
+			path = "ICU(I)P/GeoLite2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +202,7 @@
 			);
 			name = "ICU(I)P";
 			packageProductDependencies = (
+				EF82CECC2D0C9063007476BF /* SwiftCSV */,
 			);
 			productName = "ICU(I)P";
 			productReference = EF82CE5D2D0C8BAC007476BF /* ICU(I)P.app */;
@@ -195,6 +286,9 @@
 			);
 			mainGroup = EF82CE542D0C8BAC007476BF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EF82CECB2D0C9063007476BF /* XCRemoteSwiftPackageReference "SwiftCSV" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EF82CE5E2D0C8BAC007476BF /* Products */;
 			projectDirPath = "";
@@ -591,6 +685,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF82CECB2D0C9063007476BF /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftcsv/SwiftCSV.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF82CECC2D0C9063007476BF /* SwiftCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF82CECB2D0C9063007476BF /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			productName = SwiftCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EF82CE552D0C8BAC007476BF /* Project object */;
 }
